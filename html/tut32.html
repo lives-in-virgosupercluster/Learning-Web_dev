@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute and nth child pseudo selectors</title>
+    <style>
+        .container{
+            width:233px;
+            margin:auto;
+            display:block;
+
+        }
+        input{
+            display: block;
+        }
+        input[type="text"]{
+            color: purple;
+            border: 2px solid red;
+        }
+        a[target]{
+            font-size: 55px;
+        }
+        a[target="_blank"]{
+            color: royalblue;
+        }
+        /* li:nth-child(3){
+            color:royalblue;
+        } */
+        /* 3rd li wala child hoga uspe laguuu hoga */
+        li:nth-child(2n+1){
+            color: royalblue;
+        }
+        /* n ki value rakho 0 se kuch bhi vo wala child pe lagu hoga */
+        li:nth-child(odd){
+            color: yellow;
+        }
+        /* obvious hai */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">go to google</a></h1>
+        <h1><a href="http://github.com" target="_self">go to github</a></h1>
+        <form action="" class="formaction"></form>
+        <input type="text" placeholder="enter your name">
+        <input type="password" placeholder="enter your password">
+        <input type="submit" placeholder="submit">
+        <ul>
+            <li class="item" id="item-1">item1</li>
+            <li class="item" id="item-2">item2</li>
+            <li class="item" id="item-3">item3</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-5">item5</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

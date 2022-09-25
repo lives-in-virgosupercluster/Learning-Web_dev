@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+</head>
+<style>
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: background-color;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    /* transition short hand- */
+    /* transition:background-color 1s ease-in-out 3s; */
+    /* agar ek se zyada properties par karna transition toh- */
+    transition:all 1s ease-in-out .3s;
+    
+}
+#box:hover{
+    background-color:black;
+    height: 500px;
+    width: 500px;
+    border-radius: 100px;
+    color:yellow;
+    font-size: 50px;
+
+}
+
+</style>
+<body>
+<h3>this is CSS transition Tutorial</h3>
+<div class="container">
+    <div id="box">
+        this is my box
+    </div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 0px;
+     padding:0px;
+}
+nav{
+    background-color: black;
+    padding: 9px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    list-style: none;
+    padding:3px 15px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.container{
+    /* background-color: yellow; */
+    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: 20px;
+}
+input{
+    display: block;
+    padding: 5px;
+    margin: 9px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+}
+textarea{
+    display: block;
+    margin:5px auto;
+    width: 60%;
+    outline: none;
+    border:2px solid black;
+    
+}
+h2{
+    color:white;
+}
+body::before{
+    content: "";
+    background: url("/static/anastase-maragos-9dzWZQWZMdE-unsplash.jpg") center no-repeat;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    opacity: 0.8;
+}
+.btn{
+margin:4px auto;
+display:block;
+padding:5px 5px;
+background-color: grey;
+color:white;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}

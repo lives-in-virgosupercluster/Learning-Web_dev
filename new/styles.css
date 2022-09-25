@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    width: 0px;
+    height: 0px;
+}
+body{
+    margin:auto 10px;
+    font-size:larger;
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    background-color: green;
+
+}
+.right{
+    padding-left:2rem;
+}
+.items{
+    color:white;
+    text-decoration: none;
+
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity:0.7;
+}
+

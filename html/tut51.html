@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and conditionals</title>
+</head>
+<body>
+    <!-- div>ul>li{item-$}*n -->
+    <div>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+            <li>item-7</li>
+        </ul>
+    </div>
+    <script>
+        // var is function scoped where as let is block scoped
+        // also you can access var variable even before it is declared as undefined but accessing let is not possible before declaration
+        // you can redeclare var in same funtion but you cannot redeclare let in the same block
+        // var string1="this is a string";
+        // var string1="this is a string1";
+        
+        // console.log(string1);
+        // let a="y";
+        // {
+        //     let a="harsh";
+        //     console.log(a);
+        //     var string1="harshstring";
+        //     console.log(string1);
+        // }
+        // console.log(string1);
+        // console.log(a);
+        // cannot modify const variable value
+        // const a="value unchanged";
+        // a="i";
+        // console.log(a);
+        let age=34;
+        // age=2;
+        // if(age>18){
+        //     console.log("you can drink water");
+            
+        // }
+        // else if(age==2){
+        //     console.log("you are age--2");
+        // }
+        // else{
+        //     console.log("you can drink cold drink");
+        // }
+        // const cups=4;
+        // switch (cups) {
+        //     case 3:
+        //         console.log(cups);
+                
+        //         break;
+        //     case 4:
+        //         console.log(cups);
+        
+        //     default:
+        //         break;
+        // }
+    </script>
+    
+</body>
+</html>

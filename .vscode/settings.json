@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 26,
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "harch.C": "cpp"
+    }
+}

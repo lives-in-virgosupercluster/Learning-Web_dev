@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text shadow and box shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            /* border: 2px solid red; */
+            /* x y blur value blur radius color */
+            padding: 20px 10px;
+            margin:23px 12px;
+            background-color: sienna;
+            box-shadow: 10px 12px forestgreen;
+            box-shadow: -3px -5px 29px rebeccapurple ;
+        box-shadow: 4px 2px 3px 3px blue;
+        box-shadow: 3px 4px 4px 4px rgba(120,140,60, 0.5);
+        box-shadow: inset 3px 4px blue;
+        /* inset se box ke andar aaeeegi shadow */
+        box-shadow: 3px 4px green , 5px 10px red;
+        }
+        .card h1{
+            text-shadow: 3px 4px 2px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1"><h1>card1</h1>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nulla itaque maiores id cumque, quam enim, similique tenetur quos accusantium dolorum fuga laborum nostrum? Id quis incidunt sit quas nemo.</p> </div>
+        <div class="card" id="card-2"><h1>card2</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nulla itaque maiores id cumque, quam enim, similique tenetur quos accusantium dolorum fuga laborum nostrum? Id quis incidunt sit quas nemo.</p></div>
+        <div class="card" id="card-3"><h1>card3</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nulla itaque maiores id cumque, quam enim, similique tenetur quos accusantium dolorum fuga laborum nostrum? Id quis incidunt sit quas nemo.</p></div>
+        
+    </div>
+    
+</body>
+</html>

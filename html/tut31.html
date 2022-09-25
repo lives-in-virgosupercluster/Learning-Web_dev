@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selectors</title>
+    <style>
+        h1{
+            background-color: black;
+            font-weight: bold;
+            color: white;
+        }
+        div p{
+            background-color: blue;
+        }
+        /* doesnt work for the para which is outside div */
+        /* it will only work if div is under div 
+        it doesnt matter if it is inside another tag if it is inside div this will work */ 
+        /* i.e agar direct child nhi bhi hua toh chalega */
+        /* div > p{
+            background-color: yellow;
+        } */
+        /* yeh tabhi work karega jab direct child ho p div ka */
+        div + p{
+            background-color: pink;
+        }
+        /* yeh uss p pe work karega jiska sibling div hai */
+    </style>
+</head>
+<body>
+    <h1>more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>first para</p>
+            
+    </div>
+    <p>second para</p>
+    </div>
+    <p>third para</p>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height:3000px;
+        }
+        .box{
+            border: 2px solid black;
+            width:150px;
+            height:150px;
+            margin:2px;
+            display: inline-block;
+
+        }
+        #box3{
+            /* position-relative,absolute,fixed,sticky */
+            /* relative-it moves the element relative to its own original position and leaves gap in its original position */
+            /* position:relative;
+            top: 10px;
+            left: 10px; */
+            /* absolute - it moves the element relative to the parent's position  */
+            /* position: absolute;
+            top: 100px;
+            left: 100px; */
+            /* fixed-it fixes an element into the position relative to browser window and even if you scroll down it remains at the same place */
+            /* position :fixed;
+            left:1200px; */
+            position:sticky;
+            top:3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1
+
+    </div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

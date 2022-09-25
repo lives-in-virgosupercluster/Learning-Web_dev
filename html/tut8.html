@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>html forms</h2>
+    <form action="backend.php ">
+        <div>
+        name :<input type="text" name="myname">
+        </div>
+        <br>
+        <div> roll no : <input type="text" name="myid"></div>
+        <br>
+        <div>
+            date: <input type="date" name="mydate" >
+        </div>
+        <br>
+        <label for="eligibility">are u elegibile:</label>
+        <div>
+             <input type="checkbox" name="myeligibilty" id="eligibility">
+            
+        </div>
+        <br>
+        <div>
+            gender: male<input type="radio" name="mygender" checked > female <input type="radio" name="mygender" >
+        </div>
+        <br>
+        <div>
+            bonus: <input type="number" name="mybonus" >
+        </div>
+        <br>
+        <div>
+            <label for="car">car</label>
+            <select name="mycar" id="car">
+                <option value="i" selected>indica</option>
+                <option value="s">swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            write about yourself <br>: <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset">
+        </div>
+        <br>
+    </form>
+    
+</body>
+</html>

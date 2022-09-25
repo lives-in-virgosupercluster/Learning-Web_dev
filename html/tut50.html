@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Functions</title>
+</head>
+<body>
+
+    <script>
+        var str="this is a string";
+        console.log(str);
+        // first occurence of the substring
+        var position=str.indexOf('s');
+        console.log(position);
+        // last occurence of the substring
+        position=str.lastIndexOf('s');
+        console.log(position);
+        //substring from a string 1st se 5th tak slice karega for the below example
+        var substr=str.slice(1,6);
+        // same job as above function
+        substr=str.substring(1,6);
+        // 1st index se 3 element slice karega i.e 1 to 3
+        // var substr1=str.substr(1,3);
+        // console.log(substr1);
+        // replacing word in a string although a new string is created and replaced word is used instead of the original word
+        // var replace=str.replace('string','harsh');
+        // console.log(replace);
+        // console.log(str.toUpperCase());
+        // console.log(str.toLowerCase());
+        // var newstring=str.concat('newstring');
+        // console.log(newstring);
+        // var strwithwidespaces='  had jga hjhjla  lfhf   ';
+        // console.log(strwithwidespaces);
+        // removes leading whitespaces and ending whitespaces
+        // console.log(strwithwidespaces.trim());
+        //prints character present at specified index
+        var char2=str.charAt(2);
+        //characte code of character
+        char2=str.charCodeAt(2);
+        console.log(char2);
+    </script>
+</body>
+</html>

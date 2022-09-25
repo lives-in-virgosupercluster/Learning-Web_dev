@@ -1,0 +1,18 @@
+{
+  "name": "harshpack",
+  "version": "1.0.0",
+  "description": "best package",
+  "main": "harsh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "harsh"
+  ],
+  "author": "harsh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "slugify": "^1.6.5"
+  }
+}
